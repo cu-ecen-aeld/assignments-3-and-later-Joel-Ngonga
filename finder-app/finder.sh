@@ -10,7 +10,7 @@ filesdir="$1"
 searchstr="$2"
 #nothing
 
-filesdir="$HOME$filesdir"
+#filesdir="$HOME$filesdir"
 
 # Check if filesdir is a directory
 if [ ! -d "$filesdir" ]; then

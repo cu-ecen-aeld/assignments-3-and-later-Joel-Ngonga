@@ -14,7 +14,7 @@ filecontent=$2
 
 # expand file name by adding home directory 
 
-filename="$HOME$filename"
+#filename="$HOME$filename"
 
 
 #extract directory name from filename
@@ -31,7 +31,7 @@ fi
 
 if [ ! -e "$filename" ]; then
 	touch "filename"
-	
+	#echo "file created"
 	#exit with value 1 and print statement if file could not be created
 	if [ $? -ne 0 ]; then
             echo "Error: Could not create the file $filename"
@@ -42,4 +42,4 @@ fi
 # overwrite content to file 
 echo "$filecontent" > "$filename"
 
-#echo "good job we are none now"33
+#echo "good job we are none now"

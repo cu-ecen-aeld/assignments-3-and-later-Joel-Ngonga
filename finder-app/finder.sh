@@ -8,6 +8,7 @@ fi
 
 filesdir="$1"
 searchstr="$2"
+#abc
 #nothing
 
 #filesdir="$HOME$filesdir"
